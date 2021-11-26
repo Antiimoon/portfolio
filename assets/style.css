@@ -140,8 +140,12 @@ p {
 
 .project-image {
     margin-top: 25px;
-    width: 200px;
-    border-radius: 150px;
+    width: 170px;
+    border-radius: 75px;
 }
 
-hr
+.project-image-3 {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 100px;
+}
