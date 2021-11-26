@@ -3,13 +3,11 @@ body {
 }
 
 section {
-    height: 500px;
     background-color: white;
-    border: black solid 1px;
 }
 
 .hero {
-    background-color: #1c1d25;
+    background-color: black;
     height: 100vh;
     color: white;
     font-size: 40px;
@@ -44,10 +42,20 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 60px;
+    font-style: bold;
+}
+
 p {
     margin: 0;
     font-size: 40px;
     font-weight: 100;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300px;
 }
 
 .hero-titles {
@@ -86,3 +94,54 @@ p {
 .socials {
     padding-bottom: 200px;
 }
+
+.logo {
+    height: 140px;
+}
+
+.social {
+    margin: 30px 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sun-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.selfie {
+    padding: 0 15px 0;
+    width: 400px;
+    border-radius: 200px;
+}
+
+.self-photo {
+    display: flex;
+    align-items: center;
+}
+
+.project {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(192, 192, 192)
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 200px;
+    border-radius: 150px;
+}
+
+hr
