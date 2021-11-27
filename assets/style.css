@@ -153,6 +153,21 @@ p {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    ul {
+        margin: 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
 .project-image {
     margin-top: 25px;
     width: 170px;
