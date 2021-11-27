@@ -14,8 +14,10 @@ section {
 }
 
 footer {
-    height: 500px;
+    Padding: 80px;
     background-color: black;
+    color: white;
+    text-align: center;
 }
 
 nav {
@@ -128,7 +130,7 @@ p {
 }
 
 .project {
-    width: 300px;
+    width: 400px;
     height: 500px;
     box-shadow: 5px 5px 20px rgb(192, 192, 192)
 }
@@ -138,14 +140,31 @@ p {
     justify-content: space-around;
 }
 
+@media only screen and (max-width: 980px) {
+    .projects-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
 .project-image {
     margin-top: 25px;
     width: 170px;
-    border-radius: 75px;
+    border-radius: 60px;
 }
 
 .project-image-3 {
     margin-top: 25px;
     width: 250px;
-    border-radius: 100px;
+    border-radius: 120px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: orangered;
+}
+a { 
+    text-decoration: none;
+    color: white;
 }
