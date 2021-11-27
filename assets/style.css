@@ -8,7 +8,7 @@ section {
 
 .hero {
     background-color: black;
-    height: 100vh;
+    height: 98vh;
     color: white;
     font-size: 40px;
 }
@@ -140,11 +140,16 @@ p {
     justify-content: space-around;
 }
 
-@media only screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
     .projects-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+    }
+
+    nav {
+        align-items: flex-start;
+        display: inline-block,
     }
 }
 
@@ -163,6 +168,7 @@ p {
 .project-link {
     text-decoration: none;
     color: orangered;
+   font-style: bold;
 }
 a { 
     text-decoration: none;
