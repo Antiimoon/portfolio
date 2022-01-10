@@ -176,8 +176,9 @@ p {
 
 .project-image-3 {
     margin-top: 25px;
-    width: 250px;
-    border-radius: 120px;
+    width: 180px;
+    height: 280px;
+    border-radius: 60px;
 }
 
 .project-link {
